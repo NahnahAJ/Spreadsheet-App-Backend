@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+userOne = User.create(name: "John Doe", email: "john.doe@gmail.com", password_digest: "password")
+propertyOne = Property.create(description: "A beautiful house", location: "Lagos", property_type: "Duplex", image: "https://images.unsplash.com/photo-1611179836928-5b7c0c4b0b0f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZHVwbGV4JTIwYmFja2dyb3VuZCUyMHBhcGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80", price: 100000, category: "Rent", no_of_bedrooms: 4)
