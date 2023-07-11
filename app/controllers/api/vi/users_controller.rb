@@ -40,7 +40,7 @@ class Api::Vi::UsersController < ApplicationController
   end
 
   def render_not_found_response
-    render json: { error: "User not found" }, status: :not_found
+    render json: { error: 'User not found' }, status: :not_found
   end
 
   def render_unprocessable_entity_response(invalid)
@@ -48,26 +48,26 @@ class Api::Vi::UsersController < ApplicationController
   end
 
   def render_unauthorized_response
-    render json: { error: "Unauthorized" }, status: :unauthorized
+    render json: { error: 'Unauthorized' }, status: :unauthorized
   end
 
   def render_no_content_response
-    render json: { error: "No content" }, status: :no_content
+    render json: { error: 'No content' }, status: :no_content
   end
 
   def render_created_response
-    render json: { error: "Created" }, status: :created
+    render json: { error: 'Created' }, status: :created
   end
 
   def render_ok_response
-    render json: { error: "Ok" }, status: :ok
+    render json: { error: 'Ok' }, status: :ok
   end
 
   def render_bad_request_response
-    render json: { error: "Bad request" }, status: :bad_request
+    render json: { error: 'Bad request' }, status: :bad_request
   end
 
   def render_forbidden_response
-    render json: { error: "Forbidden" }, status: :forbidden
+    render json: { error: 'Forbidden' }, status: :forbidden
   end
 end

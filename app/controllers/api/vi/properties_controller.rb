@@ -36,6 +36,7 @@ class Api::Vi::PropertiesController < ApplicationController
   private
 
   def property_params
-    params.require(:property).permit(:description, :location, :property_type, :image, :price, :category, :no_of_bedrooms, :user_id)
+    params.require(:property).permit(:description, :location, :property_type, :image, :price, :category,
+                                     :no_of_bedrooms, :user_id)
   end
 end
